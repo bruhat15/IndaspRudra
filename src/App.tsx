@@ -342,14 +342,21 @@ function App() {
               <div className="space-y-6">
                 <h3 className="text-2xl font-semibold">Ananth Pullur</h3>
                 <p className="text-gray-600">
-                  Ananth Pullur is a renowned patent attorney with over 15 years of experience in intellectual
-                  property law and innovation strategy. He has helped numerous startups and established
-                  companies protect their intellectual property and navigate the complex world of patents.
+                  Ananth Pullur is the creator of 9 Keys, a multi-award-winning project designed to
+                  assist individuals with partial paralysis in regaining better control over their 
+                  communication and mobility. This innovative solution leverages assistive technology 
+                  to bridge the gap between physical limitations and digital accessibility. Now, Ananth 
+                  is preparing to transform 9 Keys into a full-fledged startup, aiming to make the technology
+                  widely available to those in need. His work represents a significant step in assistive technology,
+                  providing a practical tool for improving the quality of life for individuals facing mobility challenges.
                 </p>
                 <p className="text-gray-600">
-                  With a Ph.D. in Engineering and a law degree specializing in IP law, Dr. Smith brings
-                  a unique combination of technical expertise and legal knowledge to help innovators
-                  protect their ideas.
+                  As a second-year BTech Honors student at RV University in Bangalore, Ananth has gained technical expertise
+                  in LaTeX, Pandoc, SIMULINK, Bash scripting, and web development tools like JavaScript, HTML5, CSS, and TailwindCSS. 
+                  His background in automation and scripting helps streamline workflows, while his interest in philosophy, theology, 
+                  and languages brings an interdisciplinary approach to problem-solving. By combining engineering skills with a broader
+                  intellectual curiosity, he continues to develop projects that address real-world challenges, particularly in accessibility 
+                  and human-computer interaction.
                 </p>
                 <div className="flex space-x-4">
                   <a
