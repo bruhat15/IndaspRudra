@@ -27,7 +27,7 @@ const teamMembers: TeamMember[] = [
   {
     name: "Aditya S Maller",
     role: "Vice President",
-    image: "/image/adityasmaller.jpg"
+    image: "https://github.com/bruhat15/IndaspRudra/blob/ef1371a0738e5a8def8f6ca71438b02375d8962a/image/adityasmaller.jpg"
   },
   {
     name: "Anirudh",
