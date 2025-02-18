@@ -267,7 +267,7 @@ function App() {
       {/* Main Content */}
       <main className="pt-16">
         {/* Hero Section */}
-        <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-32">
+        <section className="bg-gradient-to-r from-blue-600 to-blue-1000 text-white py-32">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
               Bring Your Ideas to Reality
@@ -383,19 +383,19 @@ function App() {
               <div className="bg-white p-8 rounded-lg shadow-lg text-center">
                 <Trophy className="w-16 h-16 mx-auto mb-6 text-yellow-500" />
                 <h3 className="text-2xl font-bold mb-4">First Prize</h3>
-                <p className="text-3xl font-bold text-blue-600 mb-2">₹1,00,000</p>
+                <p className="text-3xl font-bold text-blue-600 mb-2">₹1</p>
                 <p className="text-gray-600">Plus Global Recognition</p>
               </div>
               <div className="bg-white p-8 rounded-lg shadow-lg text-center">
                 <Trophy className="w-16 h-16 mx-auto mb-6 text-gray-400" />
                 <h3 className="text-2xl font-bold mb-4">Second Prize</h3>
-                <p className="text-3xl font-bold text-blue-600 mb-2">₹70,000</p>
+                <p className="text-3xl font-bold text-blue-600 mb-2">₹7</p>
                 <p className="text-gray-600">Plus Mentorship</p>
               </div>
               <div className="bg-white p-8 rounded-lg shadow-lg text-center">
                 <Trophy className="w-16 h-16 mx-auto mb-6 text-orange-500" />
                 <h3 className="text-2xl font-bold mb-4">Third Prize</h3>
-                <p className="text-3xl font-bold text-blue-600 mb-2">₹40,000</p>
+                <p className="text-3xl font-bold text-blue-600 mb-2">₹4</p>
                 <p className="text-gray-600">Plus Industry Connect</p>
               </div>
             </div>
