@@ -342,21 +342,15 @@ function App() {
               <div className="space-y-6">
                 <h3 className="text-2xl font-semibold">Ananth Pullur</h3>
                 <p className="text-gray-600">
-                  Ananth Pullur is the creator of 9 Keys, a multi-award-winning project designed to
-                  assist individuals with partial paralysis in regaining better control over their 
-                  communication and mobility. This innovative solution leverages assistive technology 
-                  to bridge the gap between physical limitations and digital accessibility. Now, Ananth 
-                  is preparing to transform 9 Keys into a full-fledged startup, aiming to make the technology
-                  widely available to those in need. His work represents a significant step in assistive technology,
-                  providing a practical tool for improving the quality of life for individuals facing mobility challenges.
+                  Ananth Pullur is an aspiring data science professional and contributor to a textbook in the field. 
+                  He co-developed 9 Keys, an award-winning project that integrates health monitoring with IoT to 
+                  support individuals with partial paralysis.
                 </p>
                 <p className="text-gray-600">
-                  As a second-year BTech Honors student at RV University in Bangalore, Ananth has gained technical expertise
-                  in LaTeX, Pandoc, SIMULINK, Bash scripting, and web development tools like JavaScript, HTML5, CSS, and TailwindCSS. 
-                  His background in automation and scripting helps streamline workflows, while his interest in philosophy, theology, 
-                  and languages brings an interdisciplinary approach to problem-solving. By combining engineering skills with a broader
-                  intellectual curiosity, he continues to develop projects that address real-world challenges, particularly in accessibility 
-                  and human-computer interaction.
+                  With experience in TypeScript, Python, Go, Rust, and C, Ananth works at the intersection of data 
+                  science and full-stack development. His notable projects include a LaTeX template for IB students and 
+                  contributions to open-source initiatives. As a mentor, he shares practical insights from both academic
+                  and applied data science.
                 </p>
                 <div className="flex space-x-4">
                   <a
