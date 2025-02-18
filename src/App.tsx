@@ -354,7 +354,7 @@ function App() {
                 </p>
                 <div className="flex space-x-4">
                   <a
-                    href="https://linkedin.com/in/trainer-profile"
+                    href="https://www.linkedin.com/in/ananth-pullur-a325471b7/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:text-blue-800"
@@ -362,7 +362,7 @@ function App() {
                     <Mail className="h-6 w-6" />
                   </a>
                   <a
-                    href="mailto:trainer@example.com"
+                    href="mailto:ananthp.btech23@rvu.edu.in"
                     className="text-blue-600 hover:text-blue-800"
                   >
                     <Mail className="h-6 w-6" />
