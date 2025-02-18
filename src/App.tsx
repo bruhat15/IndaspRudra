@@ -120,7 +120,7 @@ function App() {
           <div className="flex justify-between h-16">
             <div className="flex items-center">
               <BookOpen className="h-8 w-8 text-blue-600" />
-              <span className="ml-2 text-xl font-bold">Tech Seminar 2024</span>
+              <span className="ml-2 text-xl font-bold">Indasp Masterclass</span>
             </div>
 
             {/* Desktop Navigation */}
