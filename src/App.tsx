@@ -1,7 +1,9 @@
 import React, { useState, useRef } from 'react';
-import sujayProfile from "../image/sujayvkulkarni.jpg";
-import adityaProfile from "../image/sujayvkulkarni.jpg";
-import anirudhProfile from "../image/anirudh.jpg";
+import sujayProfile from "../images/sujayvkulkarni.jpg"; 
+import adityaProfile from "../images/adityasmaller.jpg"; 
+import anirudhProfile from "../images/anirudh.jpg";
+import bruhatProfile from "../images/bruhatbkulkarni.JPG";
+import benedictProfile from "../images/ben.jpg";
 
 
 import {
@@ -42,12 +44,12 @@ const teamMembers: TeamMember[] = [
   {
     name: "Bruhat B Kulkarni",
     role: "Tech Team",
-    image: "/image/bruhatbkulkarni.JPG"
+    image: bruhatProfile
   },
   {
     name: "Benedict Antony S",
     role: "Tech Team",
-    image: "/image/ben.jpg"
+    image: benedictProfile
   }
 ];
 
