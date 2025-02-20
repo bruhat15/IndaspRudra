@@ -341,6 +341,7 @@ function App() {
                 <TrainerCard
                   name="Ananth Pullur"
                   title="Patent Attorney & Innovation Expert"
+                  image = "../image/ananthpullur.jpg"
                   linkedinUrl="https://www.linkedin.com/in/ananth-pullur-a325471b7/"
                   email="ananthp.btech23@rvu.edu.in"
                 />
