@@ -1,10 +1,9 @@
 import React, { useState, useRef } from 'react';
-import sujayProfile from "../image/sujayvkulkarni.jpg"; 
-import adityaProfile from "../image/adityasmaller.jpg"; 
+import sujayProfile from "../image/sujayvkulkarni.jpg";
+import adityaProfile from "../image/sujayvkulkarni.jpg";
 import anirudhProfile from "../image/anirudh.jpg";
 import bruhatProfile from "../image/bruhatbkulkarni.JPG";
-import benedictProfile from "../image/ben.jpg";
-import anathProfile from "../image/ananthpullur.jpg";
+import benProfile from "../image/ben.jpg";
 
 
 import {
@@ -50,7 +49,7 @@ const teamMembers: TeamMember[] = [
   {
     name: "Benedict Antony S",
     role: "Tech Team",
-    image: benedictProfile
+    image: benProfile
   }
 ];
 
@@ -342,7 +341,7 @@ function App() {
                 <TrainerCard
                   name="Ananth Pullur"
                   title="Patent Attorney & Innovation Expert"
-                  image= anathProfile
+                  image= "../image/ananthpullur.jpg"
                   linkedinUrl="https://www.linkedin.com/in/ananth-pullur-a325471b7/"
                   email="ananthp.btech23@rvu.edu.in"
                 />
