@@ -1,10 +1,10 @@
 import React from 'react';
 import { Linkedin, Mail } from 'lucide-react';
+import ananthProfile from "../image/ananthpullur.jpg";
 
 interface TrainerCardProps {
   name: string;
   title: string;
-  image: string;
   linkedinUrl: string;
   email: string;
 }
@@ -12,7 +12,6 @@ interface TrainerCardProps {
 export default function TrainerCard({
   name,
   title,
-  image,
   linkedinUrl,
   email
 }: TrainerCardProps) {
@@ -23,7 +22,7 @@ export default function TrainerCard({
           {/* Front */}
           <div className="absolute w-full h-full backface-hidden">
             <img
-              src={image}
+              src={ananthProfile}
               alt={name}
               className="w-full h-full rounded-full object-cover shadow-lg"
             />
