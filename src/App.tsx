@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import sujayProfile from "../image/sujayvkulkarni.jpg";
 import adityaProfile from "../image/sujayvkulkarni.jpg";
 import anirudhProfile from "../image/anirudh.jpg";
-import bruhatProfile from "../image/anirudh.jpg";
+import bruhatProfile from "../image/bruhat.jpg";
 import benProfile from "../image/ben.jpg";
 
 
@@ -341,7 +341,6 @@ function App() {
                 <TrainerCard
                   name="Ananth Pullur"
                   title="Patent Attorney & Innovation Expert"
-                  image= "../image/ananthpullur.jpg"
                   linkedinUrl="https://www.linkedin.com/in/ananth-pullur-a325471b7/"
                   email="ananthp.btech23@rvu.edu.in"
                 />
