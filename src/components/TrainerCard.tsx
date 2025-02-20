@@ -1,11 +1,10 @@
 import React from 'react';
 import { Linkedin, Mail } from 'lucide-react';
-import ananthProfile from "../image/ananthpullur.jpg";
 
 interface TrainerCardProps {
   name: string;
   title: string;
-  image : string;
+  image: string;
   linkedinUrl: string;
   email: string;
 }
@@ -15,22 +14,23 @@ export default function TrainerCard({
   title,
   image,
   linkedinUrl,
-  email
+  email,
 }: TrainerCardProps) {
   return (
     <div className="relative group">
-      <div className="relative w-64 h-64 mx-auto perspective animate-flip">
-        <div className="relative w-full h-full transition-transform duration-1000 transform-style-preserve-3d">
-          {/* Front */}
+      {/* Perspective wrapper */}
+      <div className="relative w-64 h-64 mx-auto perspective-1000">
+        <div className="relative w-full h-full transition-transform duration-1000 transform-style-preserve-3d group-hover:rotate-y-180">
+          {/* Front Side */}
           <div className="absolute w-full h-full backface-hidden">
             <img
-              src={ananthProfile}
+              src={image}
               alt={name}
               className="w-full h-full rounded-full object-cover shadow-lg"
             />
           </div>
-          
-          {/* Back */}
+
+          {/* Back Side */}
           <div className="absolute w-full h-full backface-hidden rotate-y-180 bg-blue-600 rounded-full flex items-center justify-center shadow-lg">
             <div className="text-white text-center p-4">
               <h3 className="text-xl font-bold mb-2">{name}</h3>
