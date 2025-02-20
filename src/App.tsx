@@ -1,5 +1,9 @@
 import React, { useState, useRef } from 'react';
 import sujayProfile from "./image/sujayvkulkarni.jpg";
+import adityaProfile from "https://github.com/bruhat15/IndaspRudra/blob/ef1371a0738e5a8def8f6ca71438b02375d8962a/image/adityasmaller.jpg";
+import anirudhProfile from "./image/anirudh.jpg";
+
+
 import {
   Menu,
   X,
@@ -23,17 +27,17 @@ const teamMembers: TeamMember[] = [
   {
     name: "Sujay V Kulkarni",
     role: "President",
-    image: {sujayProfile}
+    image: sujayProfile
   },
   {
     name: "Aditya S Maller",
     role: "Vice President",
-    image: "https://github.com/bruhat15/IndaspRudra/blob/ef1371a0738e5a8def8f6ca71438b02375d8962a/image/adityasmaller.jpg"
+    image: adityaProfile
   },
   {
     name: "Anirudh",
     role: "Tech Team",
-    image: "/image/anirudh.jpg"
+    image: anirudhProfile
   },
   {
     name: "Bruhat B Kulkarni",
