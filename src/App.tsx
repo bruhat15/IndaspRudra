@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import sujayProfile from "../image/sujayvkulkarni.jpg";
 import adityaProfile from "../image/sujayvkulkarni.jpg";
 import anirudhProfile from "../image/anirudh.jpg";
-import bruhatProfile from "../image/bruhatbkulkarni.JPG";
+import bruhatProfile from "../image/anirudh.jpg";
 import benProfile from "../image/ben.jpg";
 
 
