@@ -5,6 +5,7 @@ import ananthProfile from "../image/ananthpullur.jpg";
 interface TrainerCardProps {
   name: string;
   title: string;
+  image : string;
   linkedinUrl: string;
   email: string;
 }
@@ -12,6 +13,7 @@ interface TrainerCardProps {
 export default function TrainerCard({
   name,
   title,
+  image,
   linkedinUrl,
   email
 }: TrainerCardProps) {
