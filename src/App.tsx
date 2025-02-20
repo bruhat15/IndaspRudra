@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import sujayProfile from "../image/sujayvkulkarni.jpg";
-import adityaProfile from "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCDf26g0JxF8YtRUu92oGaQm2Hc8dxmNyy6A&s";
+import adityaProfile from "../image/sujayvkulkarni.jpg";
 import anirudhProfile from "../image/anirudh.jpg";
 
 
