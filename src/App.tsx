@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
-import sujayProfile from "./image/sujayvkulkarni.jpg";
-import adityaProfile from "https://github.com/bruhat15/IndaspRudra/blob/ef1371a0738e5a8def8f6ca71438b02375d8962a/image/adityasmaller.jpg";
-import anirudhProfile from "./image/anirudh.jpg";
+import sujayProfile from "../image/sujayvkulkarni.jpg";
+import adityaProfile from "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCDf26g0JxF8YtRUu92oGaQm2Hc8dxmNyy6A&s";
+import anirudhProfile from "../image/anirudh.jpg";
 
 
 import {
