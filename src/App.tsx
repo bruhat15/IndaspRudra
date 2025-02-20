@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import sujayProfile from "./image/sujayvkulkarni.jpg";
 import {
   Menu,
   X,
@@ -22,7 +23,7 @@ const teamMembers: TeamMember[] = [
   {
     name: "Sujay V Kulkarni",
     role: "President",
-    image: "/image/sujayvkulkarni.jpg"
+    image: {sujayProfile}
   },
   {
     name: "Aditya S Maller",
