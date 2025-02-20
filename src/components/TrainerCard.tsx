@@ -14,14 +14,13 @@ export default function TrainerCard({
   title,
   image,
   linkedinUrl,
-  email,
+  email
 }: TrainerCardProps) {
   return (
     <div className="relative group">
-      {/* Perspective wrapper */}
-      <div className="relative w-64 h-64 mx-auto perspective-1000">
-        <div className="relative w-full h-full transition-transform duration-1000 transform-style-preserve-3d group-hover:rotate-y-180">
-          {/* Front Side */}
+      <div className="relative w-64 h-64 mx-auto perspective animate-flip">
+        <div className="relative w-full h-full transition-transform duration-1000 transform-style-preserve-3d">
+          {/* Front */}
           <div className="absolute w-full h-full backface-hidden">
             <img
               src={image}
@@ -29,8 +28,8 @@ export default function TrainerCard({
               className="w-full h-full rounded-full object-cover shadow-lg"
             />
           </div>
-
-          {/* Back Side */}
+          
+          {/* Back */}
           <div className="absolute w-full h-full backface-hidden rotate-y-180 bg-blue-600 rounded-full flex items-center justify-center shadow-lg">
             <div className="text-white text-center p-4">
               <h3 className="text-xl font-bold mb-2">{name}</h3>
