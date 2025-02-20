@@ -4,7 +4,7 @@ import adityaProfile from "../images/adityasmaller.jpg";
 import anirudhProfile from "../images/anirudh.jpg";
 import bruhatProfile from "../images/bruhatbkulkarni.JPG";
 import benedictProfile from "../images/ben.jpg";
-import anathProfile from "../image/ananthpullur.jpg";
+import anathProfile from "../images/ananthpullur.jpg";
 
 
 import {
