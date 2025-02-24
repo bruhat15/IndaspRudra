@@ -1,4 +1,8 @@
 import React, { useState, useRef } from 'react';
+import { useNavigate } from "react-router-dom";
+
+const navigate = useNavigate();
+
 import sujayProfile from "../image/sujayvkulkarni.jpg";
 import adityaProfile from "../image/adityasmaller.jpg";
 import anirudhProfile from "../image/anirudh.jpg";
@@ -190,14 +194,12 @@ function App() {
                 Course Materials
               </a>
 
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdQ-Zvzg7NBqr8tfzHnoy3QOP0tJM8Kt48ZH7RL3Vk89KcGoQ/viewform?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
-              >
-                Register Here
-              </a>
+              <button
+  onClick={() => navigate("/register")}
+  className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
+>
+  Register Here
+</button>
             </div>
 
             {/* Mobile menu button */}
