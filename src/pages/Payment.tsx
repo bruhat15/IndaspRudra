@@ -50,6 +50,7 @@
 
 
 import React, { useState } from "react";
+import PaymentPage from "./pages/Payment";
 
 const PaymentPage = () => {
   const [isLoading, setIsLoading] = useState(false);
