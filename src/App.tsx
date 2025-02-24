@@ -1,7 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { useNavigate } from "react-router-dom";
 
-const navigate = useNavigate();
 
 import sujayProfile from "../image/sujayvkulkarni.jpg";
 import adityaProfile from "../image/adityasmaller.jpg";
@@ -114,6 +113,7 @@ const navItems: NavItem[] = [
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate();
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 
   const scrollToSection = (id: string) => {
