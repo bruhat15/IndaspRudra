@@ -5,6 +5,7 @@ import anirudhProfile from "../image/anirudh.jpg";
 import bruhatProfile from "../image/bruhat.jpg";
 import benProfile from "../image/ben.jpg";
 import ananthProfile from "../image/ananthpullur.jpg";
+import Registration from "./components/Registration";
 
 
 import {
