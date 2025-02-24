@@ -1,13 +1,11 @@
 import React, { useState, useRef } from 'react';
-
-
 import sujayProfile from "../image/sujayvkulkarni.jpg";
 import adityaProfile from "../image/adityasmaller.jpg";
 import anirudhProfile from "../image/anirudh.jpg";
 import bruhatProfile from "../image/bruhat.jpg";
 import benProfile from "../image/ben.jpg";
 import ananthProfile from "../image/ananthpullur.jpg";
-import Registration from "./Registration.tsx";
+import Registration from "./Registration";
 
 
 import {
@@ -112,7 +110,6 @@ const navItems: NavItem[] = [
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const navigate = useNavigate();
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 
   const scrollToSection = (id: string) => {
@@ -194,14 +191,13 @@ function App() {
               </a>
 
               <a
-  href="https://docs.google.com/forms/d/e/1FAIpQLSdQ-Zvzg7NBqr8tfzHnoy3QOP0tJM8Kt48ZH7RL3Vk89KcGoQ/viewform"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
->
-  Register Here
-</a>
-
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdQ-Zvzg7NBqr8tfzHnoy3QOP0tJM8Kt48ZH7RL3Vk89KcGoQ/viewform?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
+              >
+                Register Here
+              </a>
             </div>
 
             {/* Mobile menu button */}
@@ -286,16 +282,14 @@ function App() {
               Bring Your Ideas to Reality
             </h1>
             <p className="text-xl md:text-2xl mb-12 animate-fade-in-delay">
-              Learn. Analyze. Predict. Elevate Your Skills with Python!
+              Join us for an immersive workshop on patent drafting and innovation
             </p>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdQ-Zvzg7NBqr8tfzHnoy3QOP0tJM8Kt48ZH7RL3Vk89KcGoQ/viewform?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              onClick={handleRegisterClick}
               className="inline-block bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-colors animate-bounce"
             >
               Register Now
-            </a>
+            </button>
           </div>
         </section>
 
@@ -328,10 +322,9 @@ function App() {
             </h2>
             <div className="prose prose-lg mx-auto">
               <p className="text-gray-600 text-center max-w-3xl mx-auto">
-                Join us for an immersive Python Data Science workshop! Gain hands-on experience with real-world datasets,
-                learn from industry experts, and master essential skills in data analysis, visualization, and machine learning.
-                Whether you're a beginner or looking to refine your expertise, this workshop will equip you with the tools to turn data 
-                into powerful insights. Don't miss this opportunity to level up your data science journey! 🚀
+                Join us for an intensive workshop on patent drafting and innovation.
+                Learn from industry experts, gain practical experience, and take your
+                first steps towards becoming a patent professional.
               </p>
             </div>
           </div>
@@ -397,23 +390,20 @@ function App() {
               <div className="bg-white p-8 rounded-lg shadow-lg text-center">
                 <Trophy className="w-16 h-16 mx-auto mb-6 text-yellow-500" />
                 <h3 className="text-2xl font-bold mb-4">First Prize</h3>
-                <p className="text-3xl font-bold text-blue-600 mb-2">₹10000💰 WORTH</p>
-                <p className="text-gray-600">🎓 Personal Mentorship
-🌍 Industry Connect
-🚀 Exclusive Career Fast-Track</p>
+                <p className="text-3xl font-bold text-blue-600 mb-2">₹1</p>
+                <p className="text-gray-600">Plus Global Recognition</p>
               </div>
               <div className="bg-white p-8 rounded-lg shadow-lg text-center">
                 <Trophy className="w-16 h-16 mx-auto mb-6 text-gray-400" />
                 <h3 className="text-2xl font-bold mb-4">Second Prize</h3>
-                <p className="text-3xl font-bold text-blue-600 mb-2">1000$💰 WORTH</p>
-                <p className="text-gray-600">🎓 Personal Mentorship
-🌍 Industry Connect</p>
+                <p className="text-3xl font-bold text-blue-600 mb-2">₹7</p>
+                <p className="text-gray-600">Plus Mentorship</p>
               </div>
               <div className="bg-white p-8 rounded-lg shadow-lg text-center">
                 <Trophy className="w-16 h-16 mx-auto mb-6 text-orange-500" />
                 <h3 className="text-2xl font-bold mb-4">Third Prize</h3>
-                <p className="text-3xl font-bold text-blue-600 mb-2">2500$💰 WORTH</p>
-                <p className="text-gray-600">🌍 Industry Connect</p>
+                <p className="text-3xl font-bold text-blue-600 mb-2">₹4</p>
+                <p className="text-gray-600">Plus Industry Connect</p>
               </div>
             </div>
           </div>
@@ -467,7 +457,7 @@ function App() {
               </div>
               <div className="h-96 rounded-lg overflow-hidden shadow-lg">
                 <iframe
-                  src="https://maps.app.goo.gl/zM6EuczwcTEx1YiA8"
+                  src="https://www.google.com/maps/embed?pb=YOUR_MAP_EMBED_URL"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
