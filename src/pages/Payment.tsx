@@ -70,8 +70,8 @@ const PaymentPage = () => {
         <div className="w-full lg:w-1/2 p-4">
           <h2 className="text-xl font-bold text-center text-gray-800 mb-4">Payment methods</h2>
           <div className="text-center mb-6">
-            <span className="text-gray-400 line-through text-lg mr-2">₹2999</span>
-            <span className="text-lg font-semibold text-green-600">₹1999</span>
+            <span className="text-gray-400 line-through text-lg mr-2">₹1999</span>
+            <span className="text-lg font-semibold text-green-600">₹999</span>
           </div>
 
           <form className="space-y-4">
